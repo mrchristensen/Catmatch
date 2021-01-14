@@ -32,7 +32,7 @@ Consider the file  lorem-ipsum.txt  Download .  If run with:
 
 ./catmatch lorem-ipsum.txt
 
-and the value of the environment var CATMATCH_PATTERN was al, then the output would be:
+and the value of the environment var CATMATCH_PATTERN was al (ie, the command would be: env CATMATCH_PATTERN=al ./catmatch lorem-ipsum.txt), then the output would be:
 
 1234
 
