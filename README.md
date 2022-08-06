@@ -2,13 +2,13 @@
 
 ## Usage
 
-Your program will be run from the command line in the following way:
+Run the program will from the command line in the following way:
 
 ./catmatch filename
 
 The "./" at the beginning simply means that you are directing the shell to look for the program, catmatch, in the current directory (e.g., ".").  "filename" indicates that the program will take filename to read as a command-line argument.  You can also pass an environment variable CATMATCH_PATTERN, which is a pattern.
 
-Your program will:
+The program program will:
 
 Print the process ID to standard error (stderr)--not standard output (stdout)--followed by two newlines.
 Open the file specified on the command line
@@ -20,11 +20,7 @@ Save your file as catmatch.c, and use the following command to compile your prog
 
 gcc -o catmatch catmatch.c
 
-Your code should compile with no warnings!
-
-The "-o" option names the resulting binary being named "catmatch" (as opposed to the default, "a.out").
-
- 
+(The "-o" option names the resulting binary being named "catmatch" (as opposed to the default, "a.out").)
 
 ## Testing
 
@@ -49,7 +45,7 @@ Try with several different patterns.  You can check your work with the command-l
 
  
 
-Helps
+#### Helps
 
 You will find the following functions helpful:
 getpid()
